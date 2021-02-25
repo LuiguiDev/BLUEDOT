@@ -1,1 +1,4 @@
 Empezamos
+
+Bienvenidos a BLUEDOT, un proyecto personal que pretende compartir dos de mis mas grandes pasiones, 
+el conocimiento del firmamento y la programacion. 
