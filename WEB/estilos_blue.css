@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+h1,
+h2,
+h3,
+h4{
+    color: white;
+}
+h1{
+    
+    width: 500px;
+    margin-top: 200px;
+    
+    
+}
+h2.planet_name{
+    font-size: 70pt;
+    
+    margin-bottom: -6%;
+    margin-top: 2%;    
+}
+h3{
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 50px;
+}
+.home{
+    display: flex;
+    
+}
+.background_container{
+    height: auto;
+    width: auto;
+    margin-bottom: 1px;
+}
+.portada{  
+    position: relative;    
+    top: 0;
+    z-index: 1;
+    
+    align-items: center;
+    text-align: center;
+}
+.bluedot{
+    position: absolute;
+    z-index: 2;
+    
+}
+span{
+    color: blue;
+    
+}
+
+nav{
+    color: white;
+    margin: 0px;
+    width: 100%;
+    justify-content: end;
+    display: flex;
+    position: absolute;
+    z-index: 2;    
+}
+ul{
+    display: flex;
+    width: 500px;
+    text-align: end;
+}
+li{
+    display: flex;
+}
+p{
+    color: white;
+}
+div{
+    border-bottom: 1px solid red;
+    
+        
+}
+.solar_system{
+    display: flex;
+    align-items: center;
+}
+.informacion{
+    background-color: grey;
+    width: 33%;
+    height: 550px;
+    margin: 0% 5%;
+    
+    
+    text-align: center;
+}
+div.planeta{
+    
+    width: 50%;
+    margin-right: 5%;
+    text-align: center;
+    
+}
+
+img.planeta{
+    width: 95%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
