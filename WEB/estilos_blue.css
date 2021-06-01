@@ -8,12 +8,10 @@ h3,
 h4{
     color: white;
 }
-h1{
+h1{   
     
-    width: 500px;
-    margin-top: 200px;
-    
-    
+    position: absolute;
+    z-index: 2;
 }
 h2.planet_name{
     font-size: 70pt;
@@ -29,7 +27,9 @@ h3{
 }
 .home{
     display: flex;
-    
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .background_container{
     height: auto;
@@ -38,11 +38,9 @@ h3{
 }
 .portada{  
     position: relative;    
-    top: 0;
-    z-index: 1;
-    
-    align-items: center;
-    text-align: center;
+    width: 100%;
+    height: auto;
+    object-fit: contain;  
 }
 .bluedot{
     position: absolute;
@@ -54,22 +52,18 @@ span{
     
 }
 
-nav{
-    color: white;
-    margin: 0px;
-    width: 100%;
-    justify-content: end;
-    display: flex;
-    position: absolute;
-    z-index: 2;    
-}
+
 ul{
-    display: flex;
-    width: 500px;
-    text-align: end;
+    color: white;
+    width: 90%;
+    display: flex;    
+    justify-content: flex-end;
+    position: absolute;
+    z-index: 2;
 }
 li{
     display: flex;
+    margin-left: 40px;
 }
 p{
     color: white;
