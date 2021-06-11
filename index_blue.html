@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html>    
 <head> 
-    <title>Web planetaria </title> <meta charset="utf-8">   <link rel="stylesheet" href="estilos_blue.css"> 
+    <title>BLUEDOT</title> <meta charset="utf-8">   <link rel="stylesheet" href="estilos_blue.css"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="icon" type="png" href="../IMG_Bluedot/Favicon.png">
 </head>    
 <body>
 
-            <!--      INICIO      --> 
-                    
+            <!--      INICIO      -->                     
         
     <ul>
-        <li> <a>Posts</a> </li>
-        <li> <a>Comunidad</a> </li>
-        <li> <a>Contacto</a> </li>
-    </ul>
-        
-    
+        <li> <a href="#post">Posts</a> </li>
+        <li> <a href="#comunity">Comunidad</a> </li>
+        <li> <a href="#contact">Contacto</a> </li>
+    </ul>    
     
     <div class="home">
-        <img src="../IMG_Bluedot/BLUEDOT---logo--Responsive_v2.png" class="bluedot-logo">
+        <img src="../IMG_Bluedot/BLUEDOT---logo_v2.png" class="bluedot-logo">
         <img src="../IMG_Bluedot/Portada.png" class="portada">           
 </div>   
 
         
          <!--       PLANETAS       -->   
           
-    <article class="solar_system">           
+    <article class="solar_system" id="post">           
             <div class="informacion m-degraded">
                 <h4>MITOLOGÍA</h4>
                 <p>El mensajero de los dioses</p>
@@ -112,6 +109,18 @@
          <!--       PLANETAS       -->    
     
     
-    <footer> Pie de página </footer>
+    <footer id="contact">
+    <div class="contact-follow">
+        <form action="je"> 
+            <h4>Escríbeme</h4>
+            <input type="email" placeholder="Email">
+            <input class="message" type="text" placeholder="Escribe tu mensaje...">
+            <input class="button" type="button" value="Enviar">
+        </form>
+    </div>
+    <div class="contact-follow">
+        <h4>Sígueme</h4>
+    </div>
+    </footer>
 </body>    
 </html>
