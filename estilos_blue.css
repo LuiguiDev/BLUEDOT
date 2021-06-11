@@ -15,6 +15,7 @@ h1{
     font-family: Nunito;
     font-weight: 800;
 }
+
 h2.planet_name{
     font-size: 70pt;
     
@@ -39,11 +40,21 @@ p{
     font-family: Nunito;
     font-weight: 400;
 }
+.bluedot-logo{
+    display: flex;    
+    margin-left: 75px;
+    position: absolute;
+    margin-top: -70px;    
+    z-index: 2;
+    width: 350px;
+    height: auto;
+    
+}
 .home{
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 .background_container{
     height: auto;
