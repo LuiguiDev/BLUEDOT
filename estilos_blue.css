@@ -68,7 +68,8 @@ p{
     position: relative;    
     width: 100%;
     height: auto;
-    object-fit: contain;  
+    object-fit: contain; 
+    margin-bottom: 100px; 
 }
 .bluedot{
     position: absolute;
@@ -91,7 +92,7 @@ ul{
 }
 li{
     display: flex;
-    margin-left: 40px;
+    margin: 15px 30px 0px 30px;
 }
 p{
     color: white;
@@ -167,15 +168,12 @@ footer{
     height: 300px;
     background-color: #0071bc;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
 }
-.contact-follow{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-form{
+
+.forma{
     display: flex;
     flex-wrap: wrap;
     width: 300px;
@@ -199,5 +197,37 @@ input{
     height: 30px;
 }
 .message{
-    height: 90px;
+    padding-bottom: 90px;
+
+}
+.follow{
+    display: flex;
+    width: 300px;
+   
+} 
+.social{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    margin: 15px;
+}
+.twiter{
+    background-image: url("../IMG_Bluedot/social\ twiter.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.github{
+    background-image: url("../IMG_Bluedot/social\ github.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.linkedln{
+    background-image: url("../IMG_Bluedot/social\ linkedin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sigueme{
+    width: 300px;
+    display: flex;
+    justify-content: center;
 }
