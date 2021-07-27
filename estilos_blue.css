@@ -182,42 +182,42 @@ img.planeta{
     margin-top: -15px;
 }
 .m-degraded{
-    background-image: url("../IMG_Bluedot/Background/01.-Mercury_Degraded.png");
+    background-image: url("IMG_Bluedot/Background/01.-Mercury_Degraded.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .v-degraded{
-    background-image: url("../IMG_Bluedot/Background/02.-Venus_Degraded.png");
+    background-image: url("IMG_Bluedot/Background/02.-Venus_Degraded.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .e-degraded{
-    background-image: url("../IMG_Bluedot/Background/03.-Earth_Degraded.png");
+    background-image: url("IMG_Bluedot/Background/03.-Earth_Degraded.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mrs-degraded{
-    background-image: url("../IMG_Bluedot/Background/04.-Mars_Degraded.png");
+    background-image: url("IMG_Bluedot/Background/04.-Mars_Degraded.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .j-degraded{
-    background-image: url("../IMG_Bluedot/Background/05.-Jupiter_Degradado.png");
+    background-image: url("IMG_Bluedot/Background/05.-Jupiter_Degradado.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .s-degraded{
-    background-image: url("../IMG_Bluedot/Background/06.-Saturn_Degraded.png");
+    background-image: url("IMG_Bluedot/Background/06.-Saturn_Degraded.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .u-degraded{
-    background-image: url("../IMG_Bluedot/Background/07._Uranus_Degraded.png");
+    background-image: url("IMG_Bluedot/Background/07._Uranus_Degraded.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .n-degraded{
-    background-image: url("../IMG_Bluedot/Background/08.-Neptune_Degraded.png");
+    background-image: url("IMG_Bluedot/Background/08.-Neptune_Degraded.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -270,17 +270,17 @@ input{
     margin: 15px;
 }
 .twiter{
-    background-image: url("../IMG_Bluedot/social\ twiter.png");
+    background-image: url("IMG_Bluedot/social\ twiter.png");
     background-repeat: no-repeat;
     background-size:contain;
 }
 .github{
-    background-image: url("../IMG_Bluedot/social\ github.png");
+    background-image: url("IMG_Bluedot/social\ github.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .linkedln{
-    background-image: url("../IMG_Bluedot/social\ linkedin.png");
+    background-image: url("IMG_Bluedot/social\ linkedin.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
