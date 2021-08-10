@@ -28,6 +28,11 @@ h3{
     color: rgb(26, 26, 27);
     font-weight: 700;
 }
+.forma h3{
+    color: white;
+    margin: 15px;
+    font-size: 12pt;
+}
 p{
     font-weight: 400;
     font-size: 13pt;
@@ -120,7 +125,7 @@ a:hover span{
     display: flex;    
     margin-left: 75px;
     position: absolute;
-    margin-top: 260px;    
+    margin-top: 290px;    
     z-index: 2;
     width: 450px;
     height: auto;
@@ -227,7 +232,7 @@ input{
     margin-bottom: 15px;
     border-radius: 10px;
     text-decoration: none;
-    border-color: white;
+    border-color:white;
     border-style: solid;
     font-weight: 400;
 }
@@ -266,3 +271,4 @@ input{
     display: flex;
     justify-content: center;
 }
+
