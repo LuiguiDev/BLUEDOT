@@ -2,6 +2,9 @@ h2.planet_name{
     font-size: 16pt;
     margin-bottom: 24pt;
 }
+h3{
+    margin: 0;
+}
 p{
     font-size: 11pt;
 }
@@ -26,7 +29,7 @@ p{
 .home-mobile{
     display: flex;
     align-items: flex-end;
-    margin-bottom: 33%;
+    margin-bottom: 66%;
 }
 .logo-responsive{
     width: 50%;
@@ -85,3 +88,31 @@ div.planeta{
 .n-degraded{
     background-image: url("IMG_Bluedot/Background/Mobile/8.-Neptune_Mobile.png");
 }
+footer{
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    padding: 16%;
+    margin-top: 46%;
+    border-radius: 20px 20px 0 0;
+}
+.forma{
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+input{
+    width: 100%;
+}
+.media{
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 11%;
+
+}
+.social{
+    margin: 0;
+    margin-bottom: 11%;
+}
+  
