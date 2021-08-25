@@ -1,0 +1,12 @@
+-var menu=["Post","Acerca de","Contacto"]
+
+-var planets=["Mercurio","Venus","Tierra","Marte","Jupiter","Satruno","Urano","Neptuno"]
+
+mixin planet(id, imagen, title, description)
+  .planet 
+    .planet__view 
+      h2.planet__name= id
+      img(src="images/planets/" + imagen)
+    .information
+      p= title
+      p= description
