@@ -62,14 +62,16 @@
 }
 
 body {
-  color: "white";
+  background-color: black;
   font-family: "nunito";
+  color: white;
   margin: 0;
 }
 
 h2 {
   font-size: 60pt;
   font-weight: 800;
+  color: white;
 }
 
 h3 {
@@ -77,13 +79,93 @@ h3 {
   font-weight: 700;
 }
 
-a {
-  font-size: 1em;
-  font-weight: 700;
-  text-decoration: none;
-}
-
 p {
   font-size: 13pt;
   font-weight: 400;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: absolute;
+  z-index: 3;
+  right: 60px;
+  -webkit-animation-name: fade-in;
+          animation-name: fade-in;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+.home ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 30px 0px 30px;
+}
+.home ul a {
+  font-size: 1em;
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: white;
+}
+.home ul a span {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+.home ul a :hover span {
+  left: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.home .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 75px;
+  position: absolute;
+  top: 30%;
+  z-index: 2;
+  width: 32%;
+  height: auto;
+  margin-top: 0;
+  -webkit-animation-name: fade-in;
+          animation-name: fade-in;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+.home .portada {
+  position: relative;
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 8%;
+  -webkit-animation-name: fade-in;
+          animation-name: fade-in;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
+.home__mobile {
+  display: none;
 }
