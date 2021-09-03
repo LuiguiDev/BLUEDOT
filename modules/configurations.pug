@@ -2,11 +2,13 @@
 
 -var planets=["Mercurio","Venus","Tierra","Marte","Jupiter","Satruno","Urano","Neptuno"]
 
-mixin planet(id, imagen, title, description)
+mixin planet(name, imagen, title, description)
   .planet 
     .planet__view 
-      h2.planet__name= id
-      img(src="images/planets/" + imagen)
-    .information
-      p= title
-      p= description
+      h2.planet__name= name
+      img(src="images/planets/" + name + ".png")
+    .planet__information
+      .letter
+        p= title
+        p= description
+      .planet__information(style="backgraund-image:url(images/backgraund/venus.png)")

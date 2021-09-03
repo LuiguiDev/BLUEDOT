@@ -1,0 +1,31 @@
+.solar_system{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.planet{
+    width: 42%;
+    text-align: center;
+    margin-bottom: 100px;
+    &__view{
+        width: 95%;
+        height: auto;
+        margin-top: -15px;
+    }
+    &__information{
+        display: flex;
+        width: 24%;
+        height: 420px;
+        padding: 40px;   
+        border-radius: 20px;
+        text-align: center;
+        .background{
+            object-fit: cover;
+        }
+        .letter{
+            display: flex;
+            width: 100%;
+        }
+    }
+}

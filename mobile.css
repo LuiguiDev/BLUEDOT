@@ -26,12 +26,12 @@ p{
     display: none;
     position: relative;
 }
-.home-mobile{
+.home__mobile{
     display: flex;
     align-items: flex-end;
     margin-bottom: 66%;
 }
-.logo-responsive{
+.logo--responsive{
     width: 50%;
     height: auto;
     z-index: 2;
@@ -39,7 +39,7 @@ p{
     animation-name: fade-in;
     animation-duration: 4s;
 }
-.portada-mobile{
+.portada--mobile{
     width: 100%;
     height: auto;
     animation-name: fade-in;
