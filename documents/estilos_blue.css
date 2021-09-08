@@ -1,0 +1,274 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+h2,
+h3,
+ul,
+a,
+p{
+    color: white;
+    font-family: nunito;
+}
+h2.planet_name{
+    font-size: 60pt;
+    margin-bottom: -3%;
+    margin-top: 2%;
+    font-weight: 800;    
+}
+a
+{
+    font-weight: 700;
+    font-size: 1em;
+    text-decoration: none;
+}
+h3{
+    margin: 0px;
+    font-size: 14pt;
+    font-weight: 700;
+}
+.forma h3{
+    color: white;
+    margin: 15px;
+    font-size: 12pt;
+}
+p{
+    font-weight: 400;
+    font-size: 13pt;
+}
+
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+
+    30%{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fade{
+    from{
+        opacity: 1;
+    }
+
+    20%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(97, 97, 97);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(172, 172, 172);
+}
+
+            /*  ESTRUCTURA  */
+
+ul{
+    display: flex;    
+    justify-content: flex-end;
+    position: absolute;
+    z-index: 3;
+    right: 60px;
+    animation-name: fade-in;
+    animation-duration: 5s;
+}
+li{
+    display: flex;
+    margin: 15px 30px 0px 30px;
+
+}
+a{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 5px;
+
+}
+a span{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+a:hover span{
+    left: 0;
+    transition: .5s;
+}
+header{
+    display: flex;
+    position: relative;    
+    width: 100%;
+    height: auto;
+    object-fit: contain;   
+}
+.home-mobile{
+    display: none;
+}
+.bluedot-logo{
+    display: flex;    
+    margin-left: 75px;
+    position: absolute;
+    top: 30%;   
+    z-index: 2;
+    width: 32%;
+    height: auto;
+    margin-top: 0;
+    animation-name: fade-in;
+    animation-duration: 4s;
+}
+
+.portada{  
+    position: relative;    
+    width: 100%;
+    height: auto;
+    object-fit: contain; 
+    margin-bottom: 8%; 
+    animation-name: fade-in;
+    animation-duration: 6s;
+}
+.cover{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    background: radial-gradient(transparent 1%, black 80%);
+    animation-duration: 6s;
+    animation-name: fade;
+    opacity: 0;
+}
+
+
+
+.solar_system{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+div.planeta{
+    
+    width: 42%;
+    text-align: center;
+    
+}
+
+img.planeta{
+    width: 95%;
+    height: auto;
+    margin-top: -15px;
+}
+.informacion{
+    width: 24%;
+    height: 420px;
+    padding: 40px;   
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    text-align: center;
+}
+.m-degraded{
+    background-image: url("IMG_Bluedot/Background/01.-Mercury_Degraded.png");
+}
+.v-degraded{
+    background-image: url("IMG_Bluedot/Background/02.-Venus_Degraded.png");
+}
+.e-degraded{
+    background-image: url("IMG_Bluedot/Background/03.-Earth_Degraded.png");
+}
+.mrs-degraded{
+    background-image: url("IMG_Bluedot/Background/04.-Mars_Degraded.png");
+}
+.j-degraded{
+    background-image: url("IMG_Bluedot/Background/05.-Jupiter_Degradado.png");
+}
+.s-degraded{
+    background-image: url("IMG_Bluedot/Background/06.-Saturn_Degraded.png");
+}
+.u-degraded{
+    background-image: url("IMG_Bluedot/Background/07._Uranus_Degraded.png");
+}
+.n-degraded{
+    background-image: url("IMG_Bluedot/Background/08.-Neptune_Degraded.png");
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #005eb8;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.forma{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    border-color:white;
+    border-style: solid;
+    font-weight: 400;
+}
+.button{
+    width: 150px;
+    height: 30px;
+}
+.message{
+    padding-bottom: 90px;
+
+}
+.media{
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    margin: 15px;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.twiter{
+    background-image: url("IMG_Bluedot/social\ twiter.png");
+}
+.github{
+    background-image: url("IMG_Bluedot/social\ github.png");
+}
+.linkedln{
+    background-image: url("IMG_Bluedot/social\ linkedin.png");
+}
+.sigueme{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
