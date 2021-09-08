@@ -1,31 +1,29 @@
-.solar_system{
+
+
+
+.planet{
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 100px;
-}
-.planet{
-    width: 42%;
-    text-align: center;
-    margin-bottom: 100px;
     &__view{
-        width: 95%;
-        height: auto;
-        margin-top: -15px;
+        width: 42%;
+        text-align: center;
+        img{
+            width: 95%;
+            height: auto;
+            margin-top: -10px;
+        }
     }
     &__information{
-        display: flex;
         width: 24%;
         height: 420px;
         padding: 40px;   
         border-radius: 20px;
         text-align: center;
+        overflow:scroll;
         .background{
             object-fit: cover;
-        }
-        .letter{
-            display: flex;
-            width: 100%;
         }
     }
 }
