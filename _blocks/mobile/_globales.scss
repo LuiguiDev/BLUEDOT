@@ -1,0 +1,23 @@
+h2{
+    font-size: 16pt;
+    margin-bottom: 24pt;
+}
+h3{
+    margin: 0;
+}
+p{
+    font-size: 11pt;
+}
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+
+    30%{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}

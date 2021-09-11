@@ -10,6 +10,7 @@ h2 {
   font-weight: 800;
   color: white;
   margin: 0;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -172,11 +173,7 @@ p {
   padding: 40px;
   border-radius: 20px;
   text-align: center;
-  overflow: scroll;
-}
-.planet__information .background {
-  -o-object-fit: cover;
-     object-fit: cover;
+  background-size: cover;
 }
 
 footer {
@@ -195,7 +192,8 @@ footer {
       -ms-flex-align: center;
           align-items: center;
 }
-footer .contact {
+
+.contact, form {
   width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -210,24 +208,16 @@ footer .contact {
       -ms-flex-pack: center;
           justify-content: center;
 }
-footer .contact input {
+.contact .followme, form .followme {
   width: 300px;
-  height: 30px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-  text-decoration: none;
-  border-color: white;
-  border-style: solid;
-  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-footer .contact input__message {
-  padding-bottom: 90px;
-}
-footer .contact input__button {
-  width: 150px;
-  height: 30px;
-}
-footer .contact .media {
+.contact a, form a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -237,21 +227,30 @@ footer .contact .media {
   background-repeat: no-repeat;
   background-size: contain;
 }
-footer .contact .media .followme {
+.contact .twiter, form .twiter {
+  background-image: url("images/social__twiter.png");
+}
+.contact .github, form .github {
+  background-image: url("images/social__github.png");
+}
+.contact .linkedln, form .linkedln {
+  background-image: url("images/social__linkedin.png");
+}
+
+form input {
   width: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  height: 30px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  border-color: white;
+  border-style: solid;
+  font-weight: 400;
 }
-footer .contact .media__twiter {
-  background-image: url("images/social_twiter.png");
+form .message {
+  padding-bottom: 90px;
 }
-footer .contact .media__github {
-  background-image: url("images/social_github.png");
-}
-footer .contact .media__linkedln {
-  background-image: url("images/socia_llinkedin.png");
+form .button {
+  width: 150px;
+  height: 30px;
 }

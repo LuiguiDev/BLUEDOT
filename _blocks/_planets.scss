@@ -20,10 +20,7 @@
         height: 420px;
         padding: 40px;   
         border-radius: 20px;
-        text-align: center;
-        overflow:scroll;
-        .background{
-            object-fit: cover;
-        }
+        text-align: center;        
+        background-size: cover;
     }
 }

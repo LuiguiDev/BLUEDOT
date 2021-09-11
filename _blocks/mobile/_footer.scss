@@ -1,0 +1,31 @@
+footer{
+  flex-wrap: wrap;
+  height: auto;
+  width: auto;
+  padding: 16%;
+  margin-top: 66%;
+  border-radius: 20px 20px 0 0;
+}
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  a{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    margin: 15px;
+    display: flex;
+    margin-bottom: 16%;
+  }
+}
+form{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  input{
+      width: 100%;
+  }
+    
+}

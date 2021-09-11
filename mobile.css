@@ -1,118 +1,155 @@
-h2.planet_name{
-    font-size: 16pt;
-    margin-bottom: 24pt;
-}
-h3{
-    margin: 0;
-}
-p{
-    font-size: 11pt;
-}
-@keyframes fade-in{
-    from{
-        opacity: 0;
-    }
-
-    30%{
-        opacity: 0;
-    }
-
-    to{
-        opacity: 1;
-    }
+h2 {
+  font-size: 16pt;
+  margin-bottom: 24pt;
 }
 
-.home{
-    display: none;
-    position: relative;
+h3 {
+  margin: 0;
 }
-.home-mobile{
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 66%;
-}
-.logo-responsive{
-    width: 50%;
-    height: auto;
-    z-index: 2;
-    position: absolute;
-    animation-name: fade-in;
-    animation-duration: 4s;
-}
-.portada-mobile{
-    width: 100%;
-    height: auto;
-    animation-name: fade-in;
-    animation-duration: 6s;
-}
-.solar_system{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-div.planeta{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 44%;
-    width: 66%;
-    margin-top: 10%;
-}
-.informacion{
-    padding: 16%;
-    width: 68%;
-    height: 44%;
-}
-.m-degraded{
-    background-image: url("IMG_Bluedot/Background/Mobile/1.-Mercury_Mobile.png");
-}
-.v-degraded{
-    background-image: url("IMG_Bluedot/Background/Mobile/2.-Venus_Mobile.png");
-}
-.e-degraded{
-    background-image: url("IMG_Bluedot/Background/Mobile/3.-Earth_Mobile.png");
-}
-.mrs-degraded{
-    background-image: url("IMG_Bluedot/Background/Mobile/4.-Mars_Mobile.png");
-}
-.s-degraded{
-    background-image: url("IMG_Bluedot/Background/Mobile/5.-Jupiter_Mobile.png");
-}
-.j-degraded{
-    background-image: url("IMG_Bluedot/Background/Mobile/6.-Saturn_Mobile.png");
-}
-.u-degraded{
-    background-image: url("IMG_Bluedot/Background/Mobile/7.-Uranus_Mobile.png");
-}
-.n-degraded{
-    background-image: url("IMG_Bluedot/Background/Mobile/8.-Neptune_Mobile.png");
-}
-footer{
-    flex-wrap: wrap;
-    height: auto;
-    width: auto;
-    padding: 16%;
-    margin-top: 46%;
-    border-radius: 20px 20px 0 0;
-}
-.forma{
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-}
-input{
-    width: 100%;
-}
-.media{
-    width: inherit;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 11%;
 
+p {
+  font-size: 11pt;
 }
-.social{
-    margin: 0;
-    margin-bottom: 11%;
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-  
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.home {
+  display: none;
+  position: relative;
+}
+
+.home__mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 66%;
+}
+
+.logo--responsive {
+  width: 50%;
+  height: auto;
+  z-index: 2;
+  position: absolute;
+  -webkit-animation-name: fade-in;
+          animation-name: fade-in;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+.portada--mobile {
+  width: 100%;
+  height: auto;
+  -webkit-animation-name: fade-in;
+          animation-name: fade-in;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
+
+.planet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.planet__view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 44%;
+  width: 66%;
+  margin-top: 10%;
+}
+.planet__view img {
+  width: 95%;
+  height: auto;
+  margin-top: -10px;
+}
+.planet__information {
+  padding: 16%;
+  width: 68%;
+  height: 44%;
+}
+
+footer {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: auto;
+  width: auto;
+  padding: 16%;
+  margin-top: 66%;
+  border-radius: 20px 20px 0 0;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35px;
+  height: 35px;
+  margin: 15px;
+  display: flex;
+  margin-bottom: 16%;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+form input {
+  width: 100%;
+}
