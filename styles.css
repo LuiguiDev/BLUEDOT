@@ -6,8 +6,8 @@ body {
 }
 
 h2 {
-  font-size: 50pt;
-  font-weight: 800;
+  font-size: 45pt;
+  font-weight: 700;
   color: white;
   margin: 0;
   text-transform: uppercase;
@@ -21,6 +21,7 @@ h3 {
 p {
   font-size: 13pt;
   font-weight: 400;
+  margin: 0;
 }
 
 @-webkit-keyframes fade-in {
@@ -154,12 +155,13 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-bottom: 100px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 200px;
 }
 .planet__view {
-  width: 42%;
+  width: 38%;
   text-align: center;
 }
 .planet__view img {
@@ -168,7 +170,7 @@ p {
   margin-top: -10px;
 }
 .planet__information {
-  width: 24%;
+  width: 22%;
   height: 420px;
   padding: 40px;
   border-radius: 20px;

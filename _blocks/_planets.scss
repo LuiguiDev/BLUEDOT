@@ -4,10 +4,10 @@
 .planet{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-bottom: 100px;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
     &__view{
-        width: 42%;
+        width: 38%;
         text-align: center;
         img{
             width: 95%;
@@ -16,7 +16,7 @@
         }
     }
     &__information{
-        width: 24%;
+        width: 22%;
         height: 420px;
         padding: 40px;   
         border-radius: 20px;

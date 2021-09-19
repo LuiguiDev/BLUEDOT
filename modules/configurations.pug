@@ -8,7 +8,8 @@ mixin planet(name, alternative_1, alternative_2, title, description)
       h2.planet__name= name
       img(src="images/Planets/" + name + ".jpg" alt= alternative_1 ).planet__image
     .planet__information(style= "background-image: url(images/Background/Mobile/" + name + ".jpg)" alt= alternative_2)
-      p= title
+      p= title 
+      br
       p= description
 
       

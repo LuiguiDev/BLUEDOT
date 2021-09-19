@@ -13,8 +13,8 @@ body {
     margin: 0;
   }
   h2{
-    font-size: 50pt;
-    font-weight: 800;
+    font-size: 45pt;
+    font-weight: 700;
     color: $color--text;
     margin: 0;
     text-transform: uppercase;
@@ -27,6 +27,7 @@ body {
   p{
     font-size: 13pt;
     font-weight: 400;
+    margin: 0;
   }
 
 @keyframes fade-in{
