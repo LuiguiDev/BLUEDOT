@@ -60,6 +60,10 @@ p {
   background-color: #acacac;
 }
 
+.shared {
+  display: none;
+}
+
 .home {
   display: -webkit-box;
   display: -ms-flexbox;
