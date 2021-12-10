@@ -28,15 +28,11 @@ footer{
     background-repeat: no-repeat;
     background-size:contain;
   }
-  .twiter{
-    background-image: url("images/social__twiter.png");
-  }
-  .github{
-    background-image: url("images/social__github.png");
-  }
-  .linkedln{
-    background-image: url("images/social__linkedin.png");
-  } 
+  a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+  }  
 }
 form{
   @extend .contact;
