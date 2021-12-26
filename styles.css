@@ -95,10 +95,6 @@ p {
   content: "";
 }
 
-.shared {
-  display: none;
-}
-
 .home {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -219,7 +215,7 @@ p {
 
 footer {
   width: 100%;
-  height: 300px;
+  height: 350px;
   background-color: #005eb8;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,37 +241,30 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
-.contact .followme, form .followme {
-  width: 300px;
+.contact h3, form h3 {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-.contact a, form a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 35px;
-  height: 35px;
-  margin: 15px;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 .contact a, form a {
   color: white;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 35px;
 }
 
+form {
+  width: 400px;
+}
 form input {
-  width: 300px;
+  width: 400px;
   height: 30px;
   margin-bottom: 15px;
   border-radius: 10px;
@@ -290,4 +279,10 @@ form .message {
 form .button {
   width: 150px;
   height: 30px;
+  background: white;
+}
+form .button:hover {
+  background: black;
+  border: black;
+  color: white;
 }
