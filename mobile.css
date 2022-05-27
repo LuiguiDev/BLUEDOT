@@ -1,6 +1,7 @@
 h2 {
   font-size: 16pt;
   margin-bottom: 24pt;
+  text-align: center;
 }
 
 h3 {
@@ -8,7 +9,13 @@ h3 {
 }
 
 p {
-  font-size: 11pt;
+  font-size: 13pt;
+  text-align: left;
+  margin-bottom: 22px;
+}
+
+.captions {
+  text-align: center;
 }
 
 @-webkit-keyframes fade-in {
@@ -69,6 +76,31 @@ p {
           animation-duration: 6s;
 }
 
+.blackHole {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.blackHole .title {
+  width: 305px;
+}
+.blackHole_image {
+  width: 300px;
+  border-radius: 10px;
+}
+.blackHole .redaction {
+  padding: 60px;
+  width: 305px;
+}
+
 .planet {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,8 +137,8 @@ p {
   margin-top: -10px;
 }
 .planet__information {
-  padding: 16%;
-  width: 68%;
+  padding: 60px;
+  width: calc(100% - 120px);
   height: 44%;
 }
 

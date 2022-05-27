@@ -1,12 +1,18 @@
 h2{
     font-size: 16pt;
     margin-bottom: 24pt;
+    text-align: center;
 }
 h3{
     margin: 0;
 }
 p{
-    font-size: 11pt;
+    font-size: 13pt;
+    text-align: left;
+    margin-bottom: 22px;
+}
+.captions{
+    text-align: center;
 }
 @keyframes fade-in{
     from{

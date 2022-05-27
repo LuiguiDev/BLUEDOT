@@ -1,6 +1,15 @@
 extend modules/template.pug 
 block content  
 
+  article.news(id="news")
+    .blackHole
+      h2.title= '¿Qué hay de especial en esta imagen?'
+      img(src="images/news/sagitario A.jpg", alt="Imagen de Sagitario A*, el agujero negro de nuestra galaxia" class="blackHole_image")
+      .redaction
+        p.captions= 'Agujeros negros, abuelos estelares' 
+        p= 'Sagitario A*, el suejo de nuestra fotografía, es el agujero negro que ayudó a formar nuestra galaxia.'
+        p.captions= 'Leer más'
+
   article.solarsystem(id="post")
     +planet(planets[0],
       'Planeta ' + planets[0],
