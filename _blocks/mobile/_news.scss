@@ -2,18 +2,17 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 100%;
+    width: auto;
 	.title{
-		width: 305px;
+		width: 90%;
 	}
 	&_image{
-		width: 300px;
+		width: 90%;
 		border-radius: 10px;
 	}
 	.redaction{
 		padding: 60px;
-		width: 305px;
-
+		width: calc(80% - 60px);
 	}
 }
 .planet{
@@ -34,5 +33,8 @@
             margin-top: -10px;
         }
     }
-    
+    &__information{
+        padding: 60px;
+        width: calc(100% - 120px);
+    }
 }
