@@ -136,11 +136,6 @@ p {
   height: auto;
   margin-top: -10px;
 }
-.planet__information {
-  padding: 60px;
-  width: calc(100% - 120px);
-  height: 44%;
-}
 
 footer {
   -ms-flex-wrap: wrap;
