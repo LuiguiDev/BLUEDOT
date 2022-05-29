@@ -90,15 +90,33 @@ p {
   width: auto;
 }
 .blackHole .title {
-  width: 90%;
+  width: 80%;
+  font-size: 16px;
 }
-.blackHole_image {
-  width: 90%;
+.blackHole .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
   border-radius: 10px;
+}
+.blackHole .image img {
+  width: 80%;
+}
+.blackHole .image .fade {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  background: radial-gradient(transparent 60%, #000000);
+  width: 80%;
+  height: 340px;
 }
 .blackHole .redaction {
   padding: 60px;
-  width: calc(80% - 60px);
+  width: calc(100% - 120px);
 }
 
 .planet {
@@ -132,13 +150,16 @@ p {
   margin-top: 10%;
 }
 .planet__view img {
-  width: 95%;
+  width: 100%;
   height: auto;
-  margin-top: -10px;
 }
 .planet__information {
   padding: 60px;
   width: calc(100% - 120px);
+  height: calc(100% + 120px);
+}
+.planet__information p {
+  margin-bottom: 0;
 }
 
 footer {

@@ -4,15 +4,29 @@
 	align-items: center;
     width: auto;
 	.title{
-		width: 90%;
+		width: 80%;
+        font-size: 16px;
 	}
-	&_image{
-		width: 90%;
-		border-radius: 10px;
-	}
+    .image{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        border-radius: 10px;
+        img{
+            width: 80%;
+        }
+        .fade{
+            z-index: 1;
+            position: absolute;
+            top: 0;
+            background: radial-gradient(transparent 60%, #000000);
+            width: 80%;
+            height: 340px;
+        } 
+    }
 	.redaction{
 		padding: 60px;
-		width: calc(80% - 60px);
+		width: calc(100% - 120px);
 	}
 }
 .planet{
@@ -28,13 +42,17 @@
         width: 66%;
         margin-top: 10%;
         img{
-            width: 95%;
+            width: 100%;
             height: auto;
-            margin-top: -10px;
         }
+          
     }
     &__information{
         padding: 60px;
         width: calc(100% - 120px);
+        height: calc(100% + 120px);
+        p{
+            margin-bottom: 0;
+        }
     }
 }
