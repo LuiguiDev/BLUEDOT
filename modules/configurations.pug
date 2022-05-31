@@ -2,6 +2,14 @@
 
 -var planets=["Mercurio","Venus","Tierra","Marte","Jupiter","Saturno","Urano","Neptuno"]
 
+mixin pieceOfNews(title, image, alt, caption, redaction)
+  h2.title= title
+  img(src="images/news/" + image + ".jpg", alt= atl)
+  .redaction
+    p.captions= caption
+    p= redaction 
+    p.captions= "Seguir leyendo"
+
 mixin planet(name, alternative_1, alternative_2, title, description)
   .planet 
     .planet__view 

@@ -1,15 +1,11 @@
 extend modules/template.pug 
 block content  
-  
-  .blackHole
-    h2.title= '¿Qué hay de especial en esta imagen?'
-    .image
-      img(src="images/news/Sagitario A.jpg", alt="Imagen de Sagitario A*, el agujero negro de nuestra galaxia" class="blackHole_image")
-      .fade
-    .redaction
-      p.captions= 'Agujeros negros, abuelos estelares' 
-      p= 'Sagitario A*, el suejo de nuestra fotografía, es el agujero negro que ayudó a formar nuestra galaxia.'
-      p.captions= 'Seguir leyendo'
+
+  article.news
+    .element
+      +pieceOfNews('¿QUÉ HAY DE ESPECIAL EN ESTA IMAGEN?', 'Sagitario A', 'Imagen de Sagitario A*, el agujero negro de nuestra galaxia', 'Agujeros negros, abuelos estelares', 'Sagitario A*, el suejo de nuestra fotografía, es el agujero negro que ayudó a formar nuestra galaxia.')
+    .element
+      +pieceOfNews('¿QUÉ PASA DURANTE UN ECLIPSE LUNA?', 'Lunar eclipse', 'Imagen de un eclipse lunar', 'Luna de sangre', 'Es asombroso ver el cambio de color en la luna, pero se vuelve aún más interesante cuando comprendemos el porqué de ese cambio.')
 
   article.solarsystem(id="post")
     +planet(planets[0],

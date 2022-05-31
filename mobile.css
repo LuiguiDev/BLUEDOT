@@ -76,7 +76,15 @@ p {
           animation-duration: 6s;
 }
 
-.blackHole {
+.news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 700px;
+  overflow: scroll;
+  width: auto;
+}
+.news .element {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,34 +95,16 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: auto;
+  width: 100vw;
 }
-.blackHole .title {
+.news .element .title {
   width: 80%;
   font-size: 16px;
 }
-.blackHole .image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-  border-radius: 10px;
+.news .element img {
+  width: 70%;
 }
-.blackHole .image img {
-  width: 80%;
-}
-.blackHole .image .fade {
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  background: radial-gradient(transparent 60%, #000000);
-  width: 80%;
-  height: 340px;
-}
-.blackHole .redaction {
+.news .element .redaction {
   padding: 60px;
   width: calc(100% - 120px);
 }
