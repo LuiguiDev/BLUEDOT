@@ -1,8 +1,9 @@
 .news{
 	display: flex;
-	height: 700px;
-	overflow: scroll;
-	width: auto;
+    gap: 50px;
+	height: 710px;
+	overflow-x: scroll;
+	width: max-content;
 	.element{
 		display: flex;
 		flex-direction: column;
@@ -16,8 +17,14 @@
 			width: 70%;
 		}
 		.redaction{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background: linear-gradient(0deg, rgb(0 94 184) 0%, rgba(255,0,0,0) 100%);
+            gap: 22px;
 			padding: 60px;
 			width: calc(100% - 120px);
+            border-radius: 20px;
 		}
 }
 }

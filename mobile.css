@@ -11,7 +11,7 @@ h3 {
 p {
   font-size: 13pt;
   text-align: left;
-  margin-bottom: 22px;
+  margin-bottom: 0px;
 }
 
 .captions {
@@ -80,9 +80,12 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 700px;
-  overflow: scroll;
-  width: auto;
+  gap: 50px;
+  height: 710px;
+  overflow-x: scroll;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 .news .element {
   display: -webkit-box;
@@ -105,8 +108,20 @@ p {
   width: 70%;
 }
 .news .element .redaction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgb(0, 94, 184)), to(rgba(255, 0, 0, 0)));
+  background: linear-gradient(0deg, rgb(0, 94, 184) 0%, rgba(255, 0, 0, 0) 100%);
+  gap: 22px;
   padding: 60px;
   width: calc(100% - 120px);
+  border-radius: 20px;
 }
 
 .planet {
