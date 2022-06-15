@@ -116,8 +116,8 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgb(0, 94, 184)), to(rgba(255, 0, 0, 0)));
-  background: linear-gradient(0deg, rgb(0, 94, 184) 0%, rgba(255, 0, 0, 0) 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgb(17, 17, 17)), to(rgba(255, 0, 0, 0)));
+  background: linear-gradient(0deg, rgb(17, 17, 17) 0%, rgba(255, 0, 0, 0) 100%);
   gap: 22px;
   padding: 60px;
   width: calc(100% - 120px);
