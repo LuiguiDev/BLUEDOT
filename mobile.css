@@ -1,3 +1,7 @@
+h1 {
+  margin: 0;
+}
+
 h2 {
   font-size: 16pt;
   margin-bottom: 24pt;
@@ -41,6 +45,10 @@ p {
     opacity: 1;
   }
 }
+.news::-webkit-scrollbar {
+  height: 7px;
+}
+
 .home {
   display: none;
   position: relative;
@@ -77,15 +85,13 @@ p {
 }
 
 .news {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 100vw;
+  overflow-x: scroll;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
   gap: 50px;
   height: 710px;
-  overflow-x: scroll;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
 }
 .news .element {
   display: -webkit-box;
@@ -105,9 +111,9 @@ p {
   font-size: 16px;
 }
 .news .element img {
-  width: 70%;
+  width: 50%;
 }
-.news .element .redaction {
+.news .element .preview {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -116,12 +122,30 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgb(17, 17, 17)), to(rgba(255, 0, 0, 0)));
-  background: linear-gradient(0deg, rgb(17, 17, 17) 0%, rgba(255, 0, 0, 0) 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgb(40, 40, 40)), to(rgba(255, 0, 0, 0)));
+  background: linear-gradient(0deg, rgb(40, 40, 40) 0%, rgba(255, 0, 0, 0) 100%);
   gap: 22px;
   padding: 60px;
   width: calc(100% - 120px);
   border-radius: 20px;
+}
+.news .element .preview_redaction {
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.courses_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90px;
+  background-color: #005eb8;
 }
 
 .planet {

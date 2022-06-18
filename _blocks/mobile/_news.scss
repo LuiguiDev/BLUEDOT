@@ -1,9 +1,10 @@
 .news{
-	display: flex;
+    width: 100vw;
+	overflow-x: scroll;
+	display: grid;
+    grid-auto-flow: column;
     gap: 50px;
 	height: 710px;
-	overflow-x: scroll;
-	width: max-content;
 	.element{
 		display: flex;
 		flex-direction: column;
@@ -14,19 +15,32 @@
 			font-size: 16px;
 		}    
 		img{
-			width: 70%;
+			width: 50%;
 		}
-		.redaction{
+		.preview{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            background: linear-gradient(0deg, rgb(17 17 17) 0%, rgba(255,0,0,0) 100%);
+            background: linear-gradient(0deg, rgb(40 40 40) 0%, rgba(255,0,0,0) 100%);
             gap: 22px;
 			padding: 60px;
 			width: calc(100% - 120px);
             border-radius: 20px;
+            &_redaction{
+                max-height: 250px;
+                overflow: hidden;
+            }
 		}
 }
+}
+.courses{
+    &_title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+        background-color: #005eb8;
+    }
 }
 .planet{
     display: flex;
